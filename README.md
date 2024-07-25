@@ -24,6 +24,7 @@ This repository contains the scripts used to generate the dataset and perform ba
 7. `explore_ImSME_dataset.ipynb`: Jupyter notebook for basic exploratory data analysis of the dataset.
 8. `requirements.txt`: List of required Python packages.
 
+### Example of several equations with textual description labels
 ![](https://github.com/SelfishGene/ImSME-dataset/blob/main/sample_images/several_equations_with_description_labels.png)
 
 ## Requirements
@@ -45,8 +46,10 @@ You have two options: download the pre-generated dataset or generate the dataset
    python download_ImSME_dataset.py
    ```
 
+   One can also download directly from kaggle on the following link: [ImSME dataset](https://www.kaggle.com/datasets/selfishgene/imsme-images-of-simple-math-equations)
+
 2. Explore the dataset:
-   Open and run the `explore_ImSME_dataset.ipynb` notebook in Jupyter or any compatible environment.
+   A Jupyter notebook with basic loading and visualization of the dataset is provided - `explore_ImSME_dataset.ipynb`
 
 ### Option 2: Generate the Dataset from Scratch
 
@@ -66,7 +69,7 @@ You have two options: download the pre-generated dataset or generate the dataset
    ```
 
 4. Explore the dataset:
-   Open and run the `explore_ImSME_dataset.ipynb` notebook in Jupyter or any compatible environment.
+   A Jupyter notebook with basic loading and visualization of the dataset is provided - `explore_ImSME_dataset.ipynb` 
 
 ## Dataset Structure
 
@@ -98,4 +101,5 @@ If you use this dataset in your research, please cite it as follows:
 
 MIT License
 
+### Example of an equation with segmentation labels
 ![](https://github.com/SelfishGene/ImSME-dataset/blob/main/sample_images/an_equation_with_segmentation_labels.png)
