@@ -3,6 +3,8 @@
 ImSME is a dataset of wide images containing simple math equations with detailed annotations. The annotations are both detailed textual descriptions as well as precise pixel coordinates of each equation part (at the digits/symbols, and arguments/operations hirarchies).  
 This repository contains the scripts used to generate the dataset and perform basic exploratory data analysis.
 
+![](https://github.com/SelfishGene/ImSME-dataset/blob/main/sample_images/sample_image_with_segmented_main_equation_parts.png)
+
 ## Dataset Description
 
 - Images of simple math equations with varied widths and a fixed height of 128 pixels.
@@ -21,6 +23,8 @@ This repository contains the scripts used to generate the dataset and perform ba
 6. `download_ImSME_dataset.py`: Script to download the ImSME dataset from Kaggle.
 7. `explore_ImSME_dataset.ipynb`: Jupyter notebook for basic exploratory data analysis of the dataset.
 8. `requirements.txt`: List of required Python packages.
+
+![](https://github.com/SelfishGene/ImSME-dataset/blob/main/sample_images/several_equations_with_description_labels.png)
 
 ## Requirements
 
@@ -93,3 +97,5 @@ If you use this dataset in your research, please cite it as follows:
 ## License
 
 MIT License
+
+![](https://github.com/SelfishGene/ImSME-dataset/blob/main/sample_images/an_equation_with_segmentation_labels.png)
