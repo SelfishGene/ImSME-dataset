@@ -1,7 +1,9 @@
 # ImSME - Images of Simple Math Equations Dataset
 
-ImSME is a dataset of wide images containing simple math equations with detailed annotations. The annotations are both detailed textual descriptions as well as precise pixel coordinates of each equation part (at the digits/symbols, and arguments/operations hirarchies).  
-This repository contains the scripts used to generate the dataset and perform basic exploratory data analysis.
+ImSME is a dataset of wide images containing simple math equations with detailed annotations. 
+The annotations are both detailed textual descriptions as well as precise pixel coordinates of each equation part (at the digits/symbols, and arguments/operations hirarchies).  
+This repository contains the scripts used to generate the dataset and perform basic exploratory data analysis.  
+The dataset is hosted by kaggle and can be found at [ImSME dataset](https://www.kaggle.com/datasets/selfishgene/imsme-images-of-simple-math-equations)
 
 ![](https://github.com/SelfishGene/ImSME-dataset/blob/main/sample_images/sample_image_with_segmented_main_equation_parts.png)
 
@@ -87,13 +89,13 @@ You have two options: download the pre-generated dataset or generate the dataset
 If you use this dataset in your research, please cite it as follows:
 
 ```
-@dataset{ImSME2024,
-  title = {ImSME: Images of Simple Math Equations Dataset},
-  author = {David Beniaguev},
-  year = {2024},
+@dataset{ImSME_2024,
+  title={ImSME: Images of Simple Math Equations Dataset},
+  author={David Beniaguev},
+  year={2024},
   url={https://github.com/SelfishGene/ImSME-dataset},
   DOI={10.34740/KAGGLE/DSV/9026395},
-  publisher = {GitHub},
+  publisher={GitHub},
 }
 ```
 
